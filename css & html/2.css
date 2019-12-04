@@ -6,7 +6,7 @@
   }
 
 body {
-	background color: white
+	/*background color: white*/ background-color: burlywood; /*we change the color*/
 	font-family: Tahoma, Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 20px;
