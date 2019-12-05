@@ -1,27 +1,29 @@
-/*pengaturan body*/
+/*setting for body*/
 
 /* #body{ */ 
-    body { /* i change the wrong code */
-	background-color:bisque;
+    body { /* i changed the wrong code */
+	background-color: cadetblue;
 	text-align: center;
     font-family: Verdana, Tahoma, Helvetical;
     font-size: 12px
 }
 
-/*pengaturan layout utama*/
+/*setting for main layout*/
 #layout{
-	/*background: #fff;*/ background-color: bisque; /*i change the color*/
+	/*background: #fff;*/ background-color: aliceblue; /*i changed the color*/
 	width: 980px;
 	margin: auto;
 	text-align: left;
 	padding: 2px;
-    border: 5px solid #990000; /*we add boder*/
+    border: 5px solid skyblue; /*i add border*/
 }
 
+/*setting for the header*/
 #header{
 	width: 100%;
 	height: 130px;
-	/*background-color: black;*/ background-color: brown; /*i change the color*/
+	/*background-color: black;*/ background-color: brown; /*i changed the color*/
+    background-image: url(aladdin.jpg);
 	position: relative;
 }
 
@@ -30,16 +32,15 @@
 	height: 130px;
 }
 
-/*pengaturan menu */
+/*setting for menu */
 
 #menu{
 	width: 100%;
 	height: 40px;
-	background-color: maroon;
+	background-color: lightskyblue;
 	position: relative;
 }
 
-/*pengaturan menu*/
 #menu ul{
 	margin: 0;
 	padding: 0;
@@ -55,9 +56,9 @@
 	color: white;
 	padding: 12px 20px;
 	text-decoration: none;
-	background: maroon;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
+	background: lightskyblue;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
 	text-shadow: 0 -1px 1px rgba(0,0,0,0,6);
 }
 /*
@@ -65,30 +66,30 @@
 	color: white;
 	background:solid black;	
 } 
-i change it becuase it have the wrong code */
+i changed it becuase it have the wrong code */
 #menu ul li:hover a{
 	color: #3479CF;
 	background: #fff;	
 }
-/*pengaturan runningtext*/
+/*setting for runningtext*/
 
 #runningtext{
 	width: 100%;
 	height: 25px;
 	padding-top: 7px;
 	margin: 5px 0 5px 0;
-	/*background-color: black;*/ background-color: maroon; /* i change the color */
+	/*background-color: black;*/ background-color: cadetblue;/* we change the color */
 	color: white;
 	position: relative;
 }
 
-/*setting for the footer */
+/*setting for the footer*/
 #footer{
 	width: 100%;
 	height: 50px;
 	margin-top: 5px;
 	padding-top: 30;
-	background-color: maroon;
+	background-color: lightskyblue;
 	color: white;
 	font-size: 16pt;
 	text-align: center;
