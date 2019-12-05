@@ -10,12 +10,12 @@ body {
 	font-family:"Times New Roman", Times, Serif;
 	font-size: 12px;
 	line-height: 20px;
-	color: #222;
+	color: #000080;
      }
 
 a {
  	text-decoration: none;
-	color: #99AECD;
+	color: #4169E1;
   }
 
 a:hover {
@@ -26,9 +26,9 @@ a:hover {
 #wrap {
 	margin: 20px auto 10px auto;
 	width: 800px;
-	background: #fff;
+	background: #1E90FF;
 	padding: 10px;
-	border: 5px solid #000;
+	border: 5px solid #00008B;
 }
 
 #header {
