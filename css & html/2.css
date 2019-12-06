@@ -6,8 +6,8 @@
   }
 
 body {
-	/*background color: white*/ background-color: burlywood; /*i change the color*/
-	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	/*background color: white*/ background-image: url("Orange%20Peachy%20Keen%20Wallpaper.jpg"); /*i change the background*/
+	font-family: fantasy;
 	font-size: 12px;
 	line-height: 20px;
 	color: #222;
@@ -26,26 +26,26 @@ a:hover {
 #wrap {
 	margin: 20px auto 10px auto;
 	width: 800px;
-	background: #fff;
+	background: #99CCCC;
 	padding: 10px;
-	border: 5px solid #000;
 }
 
 #header {
 	height: 160px;
-background: #554d42 url(images/header.jpg) no-repeat;
+background: #008B8B url(images/header.jpg) no-repeat;
 }
 #header h1 { 
+    font-family: sans-serif;
 font-size: 50px;
-letter-spacing: -7px;
-padding: 17px 0 0 10px;
+letter-spacing: 10px;
+padding: 20px 0 0 10px;
 color: #FF5500;
 }
 #header h1 a { 
-color: #D1DDEF;
+color: #FF6633;
 text-decoration: none;
 font-weight: 600;
-letter-spacing: -7px;
+letter-spacing: 17px;
 }
 #header h1 a:hover {
 color: #fff;
@@ -54,7 +54,7 @@ color: #fff;
 #menu {
 height: 30px;
 line-height: 30px;
-background: #000;
+background: #245;
 }
 #menu ul {
 list-style-type: none;
@@ -114,7 +114,7 @@ font-size: 15px;
 .left ul {
 padding: 10px 0 15px 30px;
 list-style-type: square;
-color: #99AECD;
+color: #CC6666;
 }
 .left ul li a {
 text-decoration: none;
@@ -126,9 +126,9 @@ font-weight: 600;
 
 #footer {
 text-align: center;
-font-size: 11px;
-color: #aaa;
+font-size: 12px;
+color: #FF6633;
 }
-#footer a { color: #aaa; }
+#footer a { color: #FF6666; }
 #footer a:hover { color: #111; }
 </html>
