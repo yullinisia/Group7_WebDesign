@@ -6,40 +6,40 @@
   }
 
 body {
-	background-color:white;
-	font-family:"Times New Roman", Times, Serif;
+	background-image: url("thumb-1920-176165.jpg"); /*i change the background*/
+	font-family: arial, serif;
 	font-size: 12px;
 	line-height: 20px;
-	color: #000080;
+	color: #222;
      }
 
 a {
  	text-decoration: none;
-	color: #4169E1;
+	color: orange; /* I CHANGE THE COLOR */
   }
 
 a:hover {
 	text-decoration: underline;
-	color: #4F5D7F;
+	color: #FFA500; /* change */
        }
 
 #wrap {
 	margin: 20px auto 10px auto;
 	width: 800px;
-	background: #1E90FF;
+	background: #FF7F50 ;/* I CHANGE THE COLOR */
 	padding: 10px;
-	border: 5px solid #00008B;
+	/* I deleted border */
 }
 
 #header {
 	height: 160px;
-background: #554d42 url(images/header.jpg) no-repeat;
+background: lightblue url(images/header.jpg) no-repeat;
 }
 #header h1 { 
 font-size: 50px;
 letter-spacing: -7px;
 padding: 17px 0 0 10px;
-color: #FF5500;
+color: blueviolet;
 }
 #header h1 a { 
 color: #D1DDEF;
