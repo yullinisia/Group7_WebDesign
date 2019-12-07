@@ -11,12 +11,11 @@
 
 /*setting for main layout*/
 #layout{
-	/*background: #fff;*/ background-color: aliceblue; /*i changed the color*/
+	/*background: #fff;*/background: rgba(5, 20, 50, 0.7); ; /*i changed the color*/
 	width: 850px; /* i canged the size */
 	margin: auto;
 	text-align: left;
 	padding: 2px;
-    border: 5px solid deepskyblue; /*i add border*/
     
 }
 
@@ -37,7 +36,8 @@
 	width: 100%;
 	height: 40px;
 	background-color: lightskyblue; /*i changed the color*/
-	position: relative;
+	opacity: 0.9; /* i add effect to the background*/
+    position: relative;
 }
 
 #menu ul{
@@ -56,8 +56,8 @@
 	padding: 12px 20px;
 	text-decoration: none;
 	background: lightskyblue; /*i changed the color*/
-	border-left: 1px solid white; /*i changed the color*/
-	border-right: 1px solid white; /*i changed the color*/
+	/* border-left: 1px solid black; /*i deleted this code*/
+	border-right: 1px solid rgba(5, 20, 50, 0.7); /*i changed the color*/
 	text-shadow: 0 -1px 1px rgba(0,0,0,0,6);
 }
 /*
@@ -70,6 +70,7 @@ i changed it becuase it have the wrong code */
 	color: #3479CF;
 	background: #fff;	
 }
+
 /*setting for runningtext*/
 
 #runningtext{
@@ -78,7 +79,8 @@ i changed it becuase it have the wrong code */
 	padding-top: 7px;
 	margin: 5px 0 5px 0;
 	/*background-color: black;*/ background-color: skyblue;/* i change the color */
-	color: white;
+	opacity: 0.9; /* i add effect to the background */
+    color: white;
 	position: relative;
 }
 /* setting for content */
@@ -99,7 +101,6 @@ text-align: justify;
 padding-top: 5px;
 
 }
-
 /* i add some "left" (new code) to adjust the content */
 
 .left {
@@ -110,7 +111,7 @@ width: 225px;
 
 padding-top: 5px;
     
-background-color: lightskyblue;
+background-color: white rgba (8, 20, 80, 0.4);
 
 }
 
@@ -129,9 +130,10 @@ color: blue;
 	width: 100%;
 	height: 50px;
 	margin-top: 5px;
-	padding-top: 30;
-	background-color: skyblue; /* ichanged the color*/
-	color: white;
+	padding-top: 10px;
+	background-color: skyblue; /* i changed the color*/
+	opacity: 0.7; /*i add effect to the background*/
+    color: white;
 	font-size: 16pt;
 	text-align: center;
 	position: relative;
