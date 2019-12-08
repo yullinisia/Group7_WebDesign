@@ -11,7 +11,14 @@ body {
 	font-size: 12px;
 	line-height: 20px;
 	color: yellow;
+     }body {
+    background-image: url(fika1.jpg);/*i change the background*/
+	font-family:"algerian" Serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: yellow;
      }
+
 
 a {
  	text-decoration: line-through;
