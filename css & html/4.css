@@ -83,3 +83,23 @@ font-size: 12px;
 color: #fff;
 }
 #menu ul li a:hover {
+color: #aaa;
+text-decoration: none;
+}
+
+#content {
+padding: 0 20px 20px 0;
+}
+
+.right {
+float: right;
+width: 600px;
+text-align: justify;
+padding-top: 5px;
+}
+.right h2 {
+font-size: 18px;
+font-weight: 100;
+padding: 15px 0 7px 0;
+}
+.right h2 a {
